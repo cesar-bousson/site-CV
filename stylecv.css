@@ -1,0 +1,115 @@
+body {
+    background-image: url(images/portraitopaque.jpg);
+    background-size: cover;
+    padding: 0;
+    margin: 0;
+
+}
+
+.move {
+    background-color: rgba(0, 0, 0, 0.773);
+
+    position:fixed;
+    margin-top: 12px;
+    top: -40px; /* vaut mieux fixer les valeurs par défaut pour ne pas avoir de mauvaises surprises */
+    left: 0;
+    right: 0;
+}
+
+.image1 {
+    
+    width: 100%;
+    opacity: 20%;
+
+}
+
+nav {
+    text-align: center;
+    font-size: 25px;
+}
+
+ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+a {
+    color: rgb(104, 88, 88);
+    text-decoration: none;
+}
+
+nav li {
+    color: white;
+    display: inline;
+    list-style: none;
+}
+
+
+
+
+
+.Vitrine{
+    border: 3px solid white;
+    text-align: center;
+    color: white;
+}
+
+.parcours{
+    border: 3px solid white;
+    background-color: rgba(255, 226, 226, 0.307);
+    font-size: larger;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    text-align: justify;
+    height: 55%;
+}
+
+.parcoursgauche{
+    width: 60%;
+    margin-right: 10px;
+}
+
+.parcoursimage{
+    margin-top: 2%;
+    float: right;
+}
+
+
+
+
+
+.competences{
+    border: 3px solid white;
+    background-color: rgba(255, 226, 226, 0.307);
+    font-size: larger;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    text-align: justify;
+    height: 55%;
+}
+
+.competencetxt{
+    width: 60%;
+    margin-right: 10px;
+    
+}
+
+.competencesimg{
+    margin-top: 2%;
+    float: right;
+}
+
+
+
+.download button{
+    color: burlywood;
+    border-radius: 20px 20px 20px;
+    background-size: cover;
+    margin: 0 40%;
+    font-size: large;
+
+}
